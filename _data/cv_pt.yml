@@ -47,10 +47,10 @@ cv:
 
     Publications:
       - title: "An Open ESP32-Based Aeropendulum Testbed: Delay-Aware ARX Identification, PID Control Assessment, and a Digital Shadow"
-        publisher: IEEE Latin America Transactions (aceito)
+        publisher: Submetido à IEEE Latin America Transactions
         releaseDate: 2026
       - title: An Antifragile PID Control Applied to a Buck Converter
-        publisher: American Control Conference, ACC 2026 (aceito)
+        publisher: Submetido
         releaseDate: 2026
       - title: Supervisão Adaptativa de Conversor Buck por Sistema Multiagente com Ciclo Percepção-Raciocínio-Ação e Reconfiguração Autônoma de Controladores
         publisher: CBA 2026 (aceito)

@@ -1,27 +1,21 @@
 ---
 ---
 
-@string{tla = {IEEE Latin America Transactions}}
-
-@article{defarias2026testbed,
-  abbr         = {T-LA},
+@unpublished{defarias2026testbed,
+  abbr         = {Subm.},
   title        = {An Open ESP32-Based Aeropendulum Testbed: Delay-Aware ARX Identification, PID Control Assessment, and a Digital Shadow},
   author       = {{de Farias}, Oséias D. and Teixeira, Raphael B.},
-  journal      = tla,
   year         = {2026},
-  note         = {Accepted},
-  selected     = {true},
+  note         = {Submitted to IEEE Latin America Transactions},
   abstract     = {This paper reports an open-source aeropendulum testbed built around an ESP32 microcontroller, a Python operator station, and a 3D view that mirrors the measured arm angle, and uses its recorded data to assess identification and control choices that are common in teaching laboratories. Autoregressive models with exogenous input (ARX) were estimated by least squares from an 80 s open-loop experiment excited by a random-period binary signal, and evaluated by free-run simulation on 1554 held-out samples. The second-order model proposed in the original project reached a fit index of 51.35\%, and a tenth-order model reached 78.30\%. With the model structure selected on data held out from validation, the results indicate that an input delay of 7 to 12 samples (0.14--0.24 s) accounts for most of this gap: the second-order structure with a 12-sample delay reaches 78.98\%, and the tenth-order structure with an 8-sample delay reaches 86.20\%. The same analysis explains why the transfer function published with the project scored only 55.97\%: it was estimated without delay but simulated with seven extra samples of delay. Residual tests reject whiteness for every model examined. Two closed-loop square-wave experiments with a trial-and-error PID controller show a median overshoot of 5.8--5.9\% when raising the arm and 25.5--26.9\% when lowering it. Log analysis shows that the derivative term used in those runs opposed rising motion and reinforced falling motion, so gravity alone does not explain the asymmetry. Data, firmware, and analysis scripts are openly available.}
 }
 
-@inproceedings{potts2026antifragile,
-  abbr         = {ACC},
+@unpublished{potts2026antifragile,
+  abbr         = {Subm.},
   title        = {An Antifragile PID Control Applied to a Buck Converter},
   author       = {Potts, Alain Segundo and {Estrada Martinez}, Elyser and Lescano, Julio Cesar and Farias, Oséias D. and Lyke, James},
-  booktitle    = {American Control Conference (ACC 2026)},
   year         = {2026},
-  note         = {Accepted},
-  selected     = {true},
+  note         = {Submitted},
   abstract     = {This paper proposes an antifragile control strategy for a DC-DC buck converter that not only tolerates disturbances and faults but leverages them to improve closed-loop performance. In contrast to robustness and resilience, antifragility aims at performance gains under stress. We formalize a control-oriented notion of antifragility and instantiate it on a buck converter modeled by exact ON/OFF dynamics and their duty-cycle averaged representation in continuous-conduction mode. The proposed methodology integrates a model-based residual generation with a two-sided CUSUM detector using an exponentially weighted variance estimate, a learning and adaptation driven by residual statistics, and a controller reconfiguration to exploit informative perturbations while enforcing safety thresholds. A simulated setup with simulated component degradations is used to benchmark a baseline PID against the antifragile controller. Simulations show that the antifragile loop maintains stability across all scenarios and, after repeated stress exposures, reduces overshoot and settling time while improving steady-state tracking relative to the baseline. The results indicate that purposeful use of disturbance information can yield progressive performance gains in power-electronics converters and motivate extending antifragile design to broader fault-tolerant control applications.}
 }
 
@@ -43,6 +37,7 @@
   booktitle    = {XXVI Congresso Brasileiro de Automática (CBA 2026)},
   year         = {2026},
   note         = {Accepted},
+  selected     = {true},
   abstract     = {This paper proposes a model-free Finite Control Set Model Predictive Control (FCS-MPC) strategy for active and reactive power (P-Q) regulation of a three-phase Voltage Source Inverter (VSI) connected to the grid. An ARX(3,2) model, initially parameterized offline, is identified online by a Recursive Least Squares (RLS) algorithm with forgetting factor (lambda = 0.995) after a warm-start phase, replacing the fixed physical model used in conventional FCS-MPC. Two robustness mechanisms are incorporated: a deadzone filter that suppresses parameter updates under low-amplitude prediction errors, and a covariance reset that prevents numerical divergence under low excitation. The proposed approach is validated by simulation in MATLAB/Simulink R2024b under two scenarios: fixed parameters (invariant) and progressive parametric degradation (variant), where L(t) and R(t) follow linear ramps up to 800 mH (about 13 L0) and 95 ohm (about 1.58 R0). In the variant scenario, MPC+RLS online reduces the active power RMSE by 87.9\% relative to conventional FCS-MPC (8.08 to 0.98 W) and by 94.0\% relative to MPC+ARX fixed (16.43 to 0.98 W), with statistical significance confirmed by the Mann-Whitney U test (p < 0.001).}
 }
 
