@@ -18,7 +18,7 @@ cv:
         start_date: 2025
         end_date: 2027
         highlights:
-          - Expected completion: 2027.
+          - "Expected completion: 2027."
       - institution: Federal University of Pará (UFPA)
         area: Model-free predictive control, deep reinforcement learning and power electronics
         studyType: M.Sc. in Applied Computing
