@@ -33,8 +33,8 @@ module LocalizedLabels
   }.freeze
 
   PUBLICATION_NOTES = {
-    "1st academic edition. Accepted" => "1ª edição acadêmica. Aceito",
     "Accepted" => "Aceito",
+    "Draft" => "Rascunho",
     "Preprint in preparation" => "Preprint em preparação",
   }.freeze
 
