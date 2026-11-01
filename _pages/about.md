@@ -29,6 +29,6 @@ I am pursuing two master's degrees. At [UFABC](https://www.ufabc.edu.br/), in El
 
 I also build open hardware and digital twins for engineering education, and I maintain [Synapsys](https://github.com/synapsys-lab/synapsys), a Python framework that joins control systems and machine learning. My engineering projects are in my [portfolio](https://oseiasdfarias.github.io/).
 
-<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
+<h2 style="clear: both"><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
 
 {% include selected_papers.liquid %}

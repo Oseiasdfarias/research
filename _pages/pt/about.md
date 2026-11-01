@@ -29,6 +29,6 @@ Faço dois mestrados. Na [UFABC](https://www.ufabc.edu.br/), em Engenharia Elét
 
 Também desenvolvo hardware aberto e gêmeos digitais para o ensino de engenharia, e mantenho o [Synapsys](https://github.com/synapsys-lab/synapsys), um framework em Python que une sistemas de controle e machine learning. Meus projetos de engenharia estão no meu [portfólio](https://oseiasdfarias.github.io/).
 
-<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">publicações selecionadas</a></h2>
+<h2 style="clear: both"><a href="{{ '/publications/' | relative_url }}" style="color: inherit">publicações selecionadas</a></h2>
 
 {% include selected_papers.liquid %}
