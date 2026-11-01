@@ -16,12 +16,14 @@ cv:
         area: Antifragilidade artificial, supervisão multiagente e detecção de falhas
         studyType: Mestrado em Engenharia Elétrica e de Informação
         start_date: 2025
-        end_date: 2027 (previsão)
+        end_date: 2027
+        highlights:
+          - Previsão de defesa: 2027.
       - institution: Universidade Federal do Pará (UFPA)
         area: Controle preditivo model-free, aprendizado por reforço profundo e eletrônica de potência
         studyType: Mestrado em Computação Aplicada
         start_date: 2025
-        end_date: 2027 (previsão)
+        end_date: 2027
       - institution: Universidade Federal do Pará (UFPA)
         area: "TCC: gêmeo digital para laboratório virtual de controle de sistemas dinâmicos"
         studyType: Bacharelado em Engenharia Elétrica
