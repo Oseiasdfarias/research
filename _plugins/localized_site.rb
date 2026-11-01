@@ -35,8 +35,7 @@ module LocalizedLabels
   PUBLICATION_NOTES = {
     "1st academic edition. Accepted" => "1ª edição acadêmica. Aceito",
     "Accepted" => "Aceito",
-    "Submitted to IEEE Latin America Transactions" => "Submetido à IEEE Latin America Transactions",
-    "Submitted" => "Submetido",
+    "Preprint in preparation" => "Preprint em preparação",
   }.freeze
 
   def self.apply(item)
