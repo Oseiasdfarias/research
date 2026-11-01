@@ -1,0 +1,65 @@
+cv:
+  name: Oséias D. de Farias
+  label: Mestrando
+  email: oseias.farias@ufabc.edu.br
+  location: Brasil
+
+  social_networks:
+    - network: GitHub
+      username: Oseiasdfarias
+    - network: LinkedIn
+      username: oseiasfarias
+
+  sections:
+    Education:
+      - institution: Universidade Federal do ABC (UFABC)
+        area: Antifragilidade artificial, supervisão multiagente e detecção de falhas
+        studyType: Mestrado em Engenharia Elétrica e de Informação
+        start_date: 2025
+        end_date: 2027 (previsão)
+      - institution: Universidade Federal do Pará (UFPA)
+        area: Controle preditivo model-free, aprendizado por reforço profundo e eletrônica de potência
+        studyType: Mestrado em Computação Aplicada
+        start_date: 2025
+        end_date: 2027 (previsão)
+      - institution: Universidade Federal do Pará (UFPA)
+        area: "TCC: gêmeo digital para laboratório virtual de controle de sistemas dinâmicos"
+        studyType: Bacharelado em Engenharia Elétrica
+        start_date: 2017
+        end_date: 2024
+
+    Experience:
+      - company: UFABC, projeto financiado pela AFOSR
+        position: Engenheiro de IA e Pesquisador
+        start_date: 04/2025
+        end_date: Present
+        highlights:
+          - Supervisor multiagente que detecta anomalias em um conversor de potência e reconfigura o controlador com troca a quente sem salto.
+          - Software que liga a planta no Simulink e o hardware-in-the-loop ao supervisor.
+      - company: LACUT, UFPA
+        position: Bolsista de Iniciação Científica
+        start_date: 09/2022
+        end_date: 08/2023
+        highlights:
+          - "Radiotelescópio amador: levantamento de hardware e software, orçamento e palestra no simpósio de divulgação científica do LACUT."
+
+    Publications:
+      - title: "An Open ESP32-Based Aeropendulum Testbed: Delay-Aware ARX Identification, PID Control Assessment, and a Digital Shadow"
+        publisher: IEEE Latin America Transactions (aceito)
+        releaseDate: 2026
+      - title: An Antifragile PID Control Applied to a Buck Converter
+        publisher: American Control Conference, ACC 2026 (aceito)
+        releaseDate: 2026
+      - title: Supervisão Adaptativa de Conversor Buck por Sistema Multiagente com Ciclo Percepção-Raciocínio-Ação e Reconfiguração Autônoma de Controladores
+        publisher: CBA 2026 (aceito)
+        releaseDate: 2026
+      - title: FCS-MPC com ARX Adaptativo via RLS para Controle P-Q Robusto a Variações Paramétricas em Inversores Trifásicos Conectados à Rede
+        publisher: CBA 2026 (aceito)
+        releaseDate: 2026
+      - title: "Controle de Sistemas Dinâmicos: Do aeropêndulo experimental ao gêmeo digital"
+        publisher: Livro, 1ª edição acadêmica (aceito)
+        releaseDate: 2026
+      - title: Gêmeo Digital como ferramenta para um Laboratório Virtual de modelagem e controle de sistemas dinâmicos
+        publisher: TCC, BDM/UFPA
+        releaseDate: 2023
+        url: https://bdm.ufpa.br/handle/prefix/6944
