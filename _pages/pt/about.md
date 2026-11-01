@@ -7,6 +7,8 @@ subtitle: Mestrando na <a href='https://www.ufabc.edu.br/'>UFABC</a> e na <a hre
 
 profile:
   align: right
+  image: oseias-farias.jpg
+  image_circular: false
   more_info: >
     <p>oseias.farias@ufabc.edu.br</p>
     <p>Brasil</p>
